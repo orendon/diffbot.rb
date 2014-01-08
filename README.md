@@ -28,6 +28,20 @@ Diffbot.configure do |c|
 end
 ```
 
+The API is modular, you can access everything through the client
+
+```ruby
+client = Diffbot::Client.new
+client.article "www.somedomain.com/example-url"
+```
+
+or just the modules that you actually need
+
+```ruby
+article = Diffbot::Article.new("www.mrt.com/baracus-url")
+article.title #=> Mr. T
+```
+
 ## Status
 
 This is very early stage, here are the endpoints implemented so far:
