@@ -10,7 +10,7 @@ describe Diffbot::Configurable do
 
     it "loads default configuration" do
       expect(Diffbot.api_endpoint).to eq "http://api.diffbot.com"
-      expect(Diffbot.api_version).to eq "2"
+      expect(Diffbot.api_version).to eq "v2"
     end
 
     it "overrides module configuration" do

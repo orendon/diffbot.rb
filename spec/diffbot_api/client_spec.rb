@@ -8,7 +8,7 @@ describe Diffbot::Client do
     end
   end
 
-  describe ".article" do
+  describe ".article", :vcr do
     let(:client) { Diffbot::Client.new }
 
     it "build an article from his url" do

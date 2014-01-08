@@ -7,7 +7,7 @@ module Diffbot
     DEFAULT_API_ENDPOINT = "http://api.diffbot.com"
 
     # Default API version
-    DEFAULT_API_VERSION = "2"
+    DEFAULT_API_VERSION = "v2"
 
     # @!attribute api_endpoint
     #   @return [String] Base URL for API requests. default: http://api.diffbot.com

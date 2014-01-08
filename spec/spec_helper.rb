@@ -2,7 +2,7 @@ require 'diffbot_api'
 require 'rspec'
 require 'vcr'
 
-DIFFBOT_TEST_TOKEN = "acbdefghijklmnopqrstuvwxyz"
+DIFFBOT_TEST_TOKEN = "a61adc28baecf45aae26966288f2db19"
 
 RSpec.configure do |c|
   # in RSpec 3 this will no longer be necessary

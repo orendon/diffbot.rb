@@ -4,6 +4,7 @@ gem "rake"
 
 group :development do
   gem "yard"
+  gem "pry"
 end
 
 group :test do
