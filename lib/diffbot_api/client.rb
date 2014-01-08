@@ -1,15 +1,15 @@
 require 'diffbot_api/configurable'
-require 'diffbot_api/validatable'
+require 'diffbot_api/base'
 require 'diffbot_api/article'
 
 module Diffbot
 
   # Client fot the Diffbot API
   class Client
-    include Diffbot::Validatable
+    include Diffbot::Base
 
     def initialize
-      raise TokenNotFound unless diffbot_token_exists?
+      validate_diffbot_token!
     end
 
     # Instantiate an Article from a URL

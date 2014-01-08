@@ -2,6 +2,7 @@ module Diffbot
 
   # Class to parse a Diffbot article from a given URL
   class Article
+    include Diffbot::Base
 
     # @!attribute url
     #   @return [String] Target URL for the given article
@@ -15,6 +16,8 @@ module Diffbot
     # @example Create an Article
     #   article = Diffbot::Article.new("www.example.com/some-url")
     def initialize(url)
+      validate_diffbot_token!
+
       @url = URI.parse(url)
     end
   end

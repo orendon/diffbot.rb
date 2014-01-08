@@ -3,7 +3,6 @@ require 'spec_helper'
 describe Diffbot::Client do
 
   before do
-    Diffbot.setup!
     Diffbot.configure do |c|
       c.token = DIFFBOT_TEST_TOKEN
     end
