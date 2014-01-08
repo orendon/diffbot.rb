@@ -1,4 +1,4 @@
-# Diffbot.rb
+# Diffbot.rb [![Build Status](https://travis-ci.org/orendon/diffbot.rb.png?branch=master)](https://travis-ci.org/orendon/diffbot.rb)
 
 Ruby wraper for the Diffbot API, follows Ruby conventions and idioms
 
