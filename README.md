@@ -1,4 +1,4 @@
-# Diffbot.rb [![Build Status](https://travis-ci.org/orendon/diffbot.rb.png?branch=master)](https://travis-ci.org/orendon/diffbot.rb)
+# Diffbot.rb [![Build Status](https://travis-ci.org/orendon/diffbot.rb.png?branch=master)](https://travis-ci.org/orendon/diffbot.rb) [![Code Climate](https://codeclimate.com/github/orendon/diffbot.rb.png)](https://codeclimate.com/github/orendon/diffbot.rb)
 
 Ruby wraper for the [diffbot.com](http://diffbot.com/) API, follows Ruby conventions and idioms.
 
@@ -27,6 +27,16 @@ Diffbot.configure do |c|
   c.token = ENV['DIFFBOT_TOKEN']
 end
 ```
+
+## Status
+
+This is very early stage, here are the endpoints implemented so far:
+
+* Article (in progress)
+* FrontPage (pending)
+* Product (pending)
+* Image (pending)
+* Classifier (pending)
 
 ## Contributing
 
