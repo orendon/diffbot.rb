@@ -24,6 +24,7 @@ GEM
     webmock (1.8.11)
       addressable (>= 2.2.7)
       crack (>= 0.1.7)
+    yard (0.8.7.3)
 
 PLATFORMS
   ruby
@@ -35,3 +36,4 @@ DEPENDENCIES
   rspec (~> 2.14.1)
   vcr (~> 2.8.0)
   webmock (~> 1.8.0)
+  yard

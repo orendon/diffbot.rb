@@ -1,6 +1,8 @@
 # Diffbot.rb [![Build Status](https://travis-ci.org/orendon/diffbot.rb.png?branch=master)](https://travis-ci.org/orendon/diffbot.rb)
 
-Ruby wraper for the Diffbot API, follows Ruby conventions and idioms
+Ruby wraper for the [diffbot.com](http://diffbot.com/) API, follows Ruby conventions and idioms.
+
+Check out the code documentation [here](http://rubydoc.info/github/orendon/diffbot.rb/frames).
 
 ## Installation
 
