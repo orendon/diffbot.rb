@@ -17,12 +17,5 @@ module Diffbot
     def initialize(url)
       @url = URI.parse(url)
     end
-
-    # Instantiate from an given url
-    #
-    # @return [Article]
-    def self.from(url)
-      Article.new(url)
-    end
   end
 end

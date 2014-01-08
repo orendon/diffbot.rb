@@ -5,7 +5,7 @@ describe Diffbot::Configurable do
     before do
       Diffbot.setup!
       Diffbot.configure do |config|
-        config.token = "acbdefghijklmnopqrstuvwxyz"
+        config.token = DIFFBOT_TEST_TOKEN
       end
     end
 
@@ -15,6 +15,6 @@ describe Diffbot::Configurable do
     end
 
     it "overrides module configuration" do
-      expect(Diffbot.token).to eq "acbdefghijklmnopqrstuvwxyz"
+      expect(Diffbot.token).to eq DIFFBOT_TEST_TOKEN
     end
 end
