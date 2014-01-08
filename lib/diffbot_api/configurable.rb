@@ -1,6 +1,6 @@
 module Diffbot
 
-  # Configuration options for {Client}
+  # Configuration options for {Diffbot}
   module Configurable
 
     # Default API endpoint
