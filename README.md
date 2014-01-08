@@ -18,7 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+You can provide your authentication token globally
+
+```ruby
+Diffbot.configure do |c|
+  c.token = ENV['DIFFBOT_TOKEN']
+end
+```
 
 ## Contributing
 
