@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    diffbot_api (0.0.1)
+    diffbot_api (0.1.0)
       faraday (~> 0.8.8)
 
 GEM
