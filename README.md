@@ -28,18 +28,19 @@ Diffbot.configure do |c|
 end
 ```
 
-The API is modular, you can access everything through the client
+The API is modular, you can access access all resources through the client instance
 
 ```ruby
 client = Diffbot::Client.new
 client.article "www.somedomain.com/example-url"
 ```
 
-or just the modules that you actually need
+or just the module-level resources that you actually need
 
 ```ruby
-article = Diffbot::Article.new("www.mrt.com/baracus-url")
-article.title #=> Mr. T
+article = Diffbot::Article.new("www.mrt.com/the-a-team")
+article.title   # => "The A-Team"
+article.author  # => "Mr. T"
 ```
 
 ## Status
